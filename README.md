@@ -1,4 +1,3 @@
-# Boss_zhipin_Sprider
 爬虫更新时间：
 2021年1月19日
 
@@ -25,9 +24,13 @@
 
 login_zhipin() --- 是登陆boss直聘网站
 
-get_list_info() --- 是获取某个城市所有岗位的内容信息，比如这样的链接里面的内容：https://www.zhipin.com/c101030100-p290304/ 打开里面是很多个岗位。
+get_list_info() --- 是获取某个城市所有岗位的内容信息，比如这样的链接里面的内容：
 
-get_content() --- 是获取某个职业的页面的内容信息，比如：https://www.zhipin.com/job_detail/e3259ef9777505130nR709W7FFQ~.html
+https://www.zhipin.com/c101030100-p290304/ 打开里面是很多个岗位。
+
+get_content() --- 是获取某个职业的页面的内容信息，比如：
+
+https://www.zhipin.com/job_detail/e3259ef9777505130nR709W7FFQ~.html
 
 get_list_info() 和 get_content() 可以相互调用，也可以单独使用。主要传入URL就行。
 
